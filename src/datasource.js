@@ -27,7 +27,7 @@ const findAll = (resource) => {
 
 const findById = (resource, id) => {
   const items = findAll(resource)
-  return items.find((item) => item.id === id) ?? {}
+  return items.find((item) => item.id === Number(id)) ?? {}
 }
 
 const insertData = (resource, data) => {
