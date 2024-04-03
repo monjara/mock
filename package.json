@@ -4,12 +4,15 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/app.js"
   },
   "author": "monjara",
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
     "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
